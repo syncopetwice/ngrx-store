@@ -1,0 +1,17 @@
+:host {
+  display: block;
+  width: 300px;
+}
+
+h1 {
+  margin-bottom: 0.25rem;
+}
+
+img {
+  object-fit: cover;
+}
+
+.likes-section {
+  display: flex;
+  justify-content: space-between;
+}

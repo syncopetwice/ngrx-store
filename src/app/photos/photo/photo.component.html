@@ -1,0 +1,16 @@
+<h1>{{photo.title}}</h1>
+<div>
+  <img width="300" height="300" [src]="photo.url" alt="">
+</div>
+
+<div class="likes-section">
+  <small>Likes: {{photo.likes}}</small>
+  <div>
+    <button type="button" (click)="onLike(photo)">
+      Like
+    </button>
+    <button type="button" (click)="onUnlike()">
+        Unlike
+    </button>
+  </div>
+</div>

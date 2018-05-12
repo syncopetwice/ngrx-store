@@ -1,0 +1,5 @@
+<div *ngFor="let photo of (photos$ | async)">
+  <app-photo
+    [photo]="photo"
+    ></app-photo>
+</div>
